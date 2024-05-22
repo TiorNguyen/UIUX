@@ -51,7 +51,7 @@
               
             </div>
             <button class="button" id="button">
-              <div class="tip-tc">TIẾP TỤC</div>
+              <div class="tip-tc"><a href="../Dangnhap/dangnhap.php" style="text-decoration: none; color : white;">Tiep Tuc</a></div>
             </button>
             <div class="or">
               <img

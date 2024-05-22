@@ -37,7 +37,7 @@
               
             </div>
             <div class="input1">
-              <input class="mt-khu" placeholder="Mật khẩu" type="text" />
+              <input class="mt-khu mt-khu1" placeholder="Mật khẩu" type="text" />
 
               <img class="eye-off-icon" alt="" src="./public/eyeoff.svg" />
             </div>
@@ -47,7 +47,7 @@
               <div class="lu-mt-khu">Lưu mật khẩu</div>
             </div>
             <button class="button" id="button">
-              <div class="ng-nhp2">ĐĂNG NHẬP</div>
+              <div class="ng-nhp2"><a href="../Trangchu/trangchu.php" style="text-decoration: none; color : white;">Đăng nhập</a></div>
             </button>
             <div class="qun-mt-khu">Quên mật khẩu?</div>
             <div class="or">

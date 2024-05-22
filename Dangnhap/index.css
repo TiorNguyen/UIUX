@@ -103,6 +103,7 @@
   gap: 2px;
 }
 .mt-khu {
+  margin-left: 10px;
   width: calc(100% - 54px);
   border: 0;
   outline: 0;
@@ -387,4 +388,7 @@
     padding-top: var(--padding-xl);
     padding-bottom: var(--padding-xl);
   }
+}
+.input1 .mt-khu1 {
+  margin-left: 22px;
 }
