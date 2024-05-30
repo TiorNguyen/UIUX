@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./CaiDatThongBao.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="ci-t-thng-bo">
+      <main class="general3">
+        <img class="icon28" loading="lazy" alt="" src="./public/icon-7.svg" />
+
+        <div class="tabs">
+          <div class="sidebar3">
+            <div class="unsplashrmowqdcqn2e-parent1">
+              <img
+                class="unsplashrmowqdcqn2e-icon6"
+                alt=""
+                src="./public/unsplashrmowqdcqn2e@2x.png"
+              />
+
+              <div class="company3">Anh Vinh</div>
+            </div>
+            <div class="main-tabs-parent1">
+              <div class="main-tabs3">
+                <div class="sidebar-tabs26">
+                  <img
+                    class="icon-users18"
+                    alt=""
+                    src="./public/iconusers.svg"
+                  />
+
+                  <b class="text47">Trang chủ</b>
+                  <img class="icons42" alt="" src="./public/icons.svg" />
+                </div>
+                <div class="sidebar-tabs27">
+                  <img class="icon29" alt="" src="./public/icon.svg" />
+
+                  <div class="text48">Settings</div>
+                  <img class="icons43" alt="" src="./public/icons.svg" />
+                </div>
+                <div class="sidebar-tabs28">
+                  <div class="sidebar-tabs29">
+                    <img class="icon30" alt="" src="./public/icon-1.svg" />
+
+                    <div class="text49">Thống kê</div>
+                    <img class="icons44" alt="" src="./public/icons.svg" />
+
+                    <div class="badges3">
+                      <div class="div3">1</div>
+                    </div>
+                  </div>
+                  <div class="sidebar-tabs1-parent1">
+                    <div class="sidebar-tabs111">
+                      <b class="text50">Statistic</b>
+                    </div>
+                    <div class="sidebar-tabs210">
+                      <b class="text51">Innactive</b>
+                    </div>
+                    <div class="sidebar-tabs34">
+                      <b class="text52">Users</b>
+                    </div>
+                  </div>
+                </div>
+                <div class="sidebar-tabs30">
+                  <img
+                    class="icon-users19"
+                    alt=""
+                    src="./public/iconusers-1.svg"
+                  />
+
+                  <div class="text53">Billing</div>
+                  <img class="icons45" alt="" src="./public/icons.svg" />
+                </div>
+              </div>
+              <div class="secondary-tabs3">
+                <div class="sidebar-tabs35">
+                  <img
+                    class="icon-users20"
+                    alt=""
+                    src="./public/iconusers-2.svg"
+                  />
+
+                  <div class="text54">Đăng xuất</div>
+                  <img class="icons46" alt="" src="./public/icons.svg" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar-tabs36">
+            <img
+              class="icon-users21"
+              loading="lazy"
+              alt=""
+              src="./public/iconusers-2.svg"
+            />
+
+            <div class="text-wrapper8">
+              <div class="text55"><a href="../Dangnhap/dangnhap.php" style="text-decoration: none;color:black">Đăng xuất</a></div>
+            </div>
+            <img class="icons47" alt="" src="./public/icons.svg" />
+          </div>
+          <img
+            class="unsplashrmowqdcqn2e-icon7"
+            loading="lazy"
+            alt=""
+            src="./public/unsplashrmowqdcqn2e@2x.png"
+          />
+
+          <div class="anh-vinh3">Anh Vinh</div>
+          <img
+            class="remove-bg-1-icon3"
+            loading="lazy"
+            alt=""
+            src="./public/removebg-1@2x.png"
+          />
+
+          <h3 class="kpi-control3">KPI Control</h3>
+          <button class="frame-button">
+            <div class="frame-child4"></div>
+            <div class="group-div" id="groupContainer">
+              <div class="trang-ch6">
+                
+
+                <div class="text56"><a href="../Quanly/quanly.php" style="text-decoration: none;color:black">Quản lí KPI</a></div>
+                <img class="icons48" alt="" src="./public/icons.svg" />
+              </div>
+              <img
+                class="frame-child5"
+                alt=""
+                src="./public/group-289928@2x.png"
+              />
+            </div>
+          </button>
+          <button class="trang-ch7" id="trangCh">
+            <img class="icon-users23" alt="" src="./public/iconusers-5.svg" />
+
+            <div class="text57"><a href="../Trangchu/trangchu.php" style="text-decoration: none;color:black">Trang chủ</a></div>
+            <img class="icons49" alt="" src="./public/icons.svg" />
+          </button>
+          <button class="thng-k9" id="thngK">
+            <img class="icon31" alt="" src="./public/icon.svg" />
+
+            <div class="text-wrapper9">
+              <div class="text58"><a href="../Thongke/thongke.php" style="text-decoration: none;color:black">Thống kê</a></div>
+            </div>
+            <img class="icons50" alt="" src="./public/icons.svg" />
+          </button>
+          <button class="kpi-creation">
+            <div class="thng-k10">
+            
+
+              <div class="text-wrapper10">
+                <b class="text59">Cài đặt</b>
+              </div>
+              <img class="icons51" alt="" src="./public/icons.svg" />
+            </div>
+            <img class="settings-icon3" alt="" src="./public/settings@2x.png" />
+          </button>
+          <button class="tabs1">
+            <div class="thng-k11">
+           
+
+              <div class="text-wrapper11">
+                <div class="text60"><a href="../Nguoidung/nguoidung.php" style="text-decoration: none;color:black">Người dùng</a></div>
+              </div>
+              <img class="icons52" alt="" src="./public/icons.svg" />
+            </div>
+            <img class="icons53" alt="" src="./public/icons-1.svg" />
+          </button>
+          <div class="to-kpi-group">
+            <div class="to-kpi3" id="toKPIContainer">
+              
+
+              <div class="text61"><a href="../Taokpi/TaoKPI1/TaoKPI_1.php" style="text-decoration: none;color:black">Tạo KPI</a></div>
+              <img class="icons54" alt="" src="./public/icons.svg" />
+            </div>
+            <img
+              class="icons55"
+              loading="lazy"
+              alt=""
+              src="./public/icons-2.svg"
+            />
+          </div>
+        </div>
+        <section class="frame-section">
+          <div class="thng-bo-container">
+            <h1 class="thng-bo1">THÔNG BÁO</h1>
+          </div>
+          <div class="trnh-duyt-wrapper">
+            <div class="trnh-duyt">
+              <div class="trnh-duyt-parent">
+                <h1 class="trnh-duyt1">Trình duyệt</h1>
+                <div class="input-wrapper1">
+                  <div class="input5">
+                    <div class="browser-icon-parent">
+                      <div class="browser-icon">
+                        <div class="icon-background"></div>
+                        <img
+                          class="browser-icon1"
+                          loading="lazy"
+                          alt=""
+                          src="./public/browser-icon@2x.png"
+                        />
+                      </div>
+                      <div class="thng-bo-y-trn-chorm-wrapper">
+                        <div class="thng-bo-y">Thông báo đẩy trên Chorm</div>
+                      </div>
+                    </div>
+                    <div class="switch-wrapper">
+                      <div class="switch">
+                        <img class="icon35" alt="" src="./public/icon-61.svg" />
+
+                        <div class="switch1">
+                          <img
+                            class="body-icon"
+                            alt=""
+                            src="./public/body.svg"
+                          />
+
+                          <div class="handle"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="m-thanh-wrapper">
+                  <h1 class="m-thanh">Âm thanh</h1>
+                </div>
+              </div>
+              <div class="input6">
+                <div class="pht-m-thanh">Phát âm thanh khi nhận thông báo</div>
+                <div class="sound-components-wrapper">
+                  <div class="sound-components">
+                    <div class="switch2">
+                      <img
+                        class="body-icon1"
+                        alt=""
+                        src="./public/body-1.svg"
+                      />
+
+                      <div class="handle1"></div>
+                    </div>
+                    <img class="icon36" alt="" src="./public/icon-61.svg" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="email">
+            <div class="frame-parent4">
+              <div class="frame-parent5">
+                <div class="letter-parent">
+                  <img
+                    class="letter-icon"
+                    loading="lazy"
+                    alt=""
+                    src="./public/letter@2x.png"
+                  />
+
+                  <div class="primary-email">
+                    <h1 class="email1">Email</h1>
+                  </div>
+                </div>
+                <div class="security-input">
+                  <div class="frame-parent6">
+                    <div class="email-chnh-wrapper">
+                      <div class="email-chnh">Email chính :</div>
+                    </div>
+                    <button class="input7">
+                      <div class="nguyenanhvinh52gmailcom">
+                        nguyenanhvinh52@gmail.com
+                      </div>
+                      <img class="check-box-icon" alt="" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="input-wrapper2">
+                <div class="input8">
+                  <div class="ch-nhn-thng">
+                    Chỉ nhận thông báo về bảo mật, tài khoản, quyền riêng tư
+                  </div>
+                  <div class="check-box-wrapper">
+                    <img
+                      class="check-box-icon1"
+                      loading="lazy"
+                      alt=""
+                      src="./public/checkbox-1.svg"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="input9">
+              <div class="ch-nhn-thng1">
+                Chỉ nhận thông báo có thể quan tâm như lịch hằng ngày
+              </div>
+              <div class="check-box-container">
+                <img
+                  class="check-box-icon2"
+                  loading="lazy"
+                  alt=""
+                  src="./public/checkbox-2.svg"
+                />
+              </div>
+            </div>
+          </div>
+          <footer class="frame-footer">
+            <button class="rectangle-parent1" id="groupButton">
+              <div class="frame-child6"></div>
+              <div class="quay-li">QUAY LẠI</div>
+            </button>
+          </footer>
+        </section>
+      </main>
+    </div>
+
+    <script>
+      var groupContainer = document.getElementById("groupContainer");
+      if (groupContainer) {
+        groupContainer.addEventListener("click", function (e) {
+          // Please sync "QUẢN LÍ KPI" to the project
+        });
+      }
+      
+      var trangCh = document.getElementById("trangCh");
+      if (trangCh) {
+        trangCh.addEventListener("click", function (e) {
+          // Please sync "TRANG CHỦ" to the project
+        });
+      }
+      
+      var thngK = document.getElementById("thngK");
+      if (thngK) {
+        thngK.addEventListener("click", function (e) {
+          // Please sync "Thống kê" to the project
+        });
+      }
+      
+      var toKPIContainer = document.getElementById("toKPIContainer");
+      if (toKPIContainer) {
+        toKPIContainer.addEventListener("click", function (e) {
+          // Please sync "TẠO KPI" to the project
+        });
+      }
+      
+      var groupButton = document.getElementById("groupButton");
+      if (groupButton) {
+        groupButton.addEventListener("click", function (e) {
+          window.location.href = "./c-i-t-c-h-u-n-g.html";
+        });
+      }
+      </script>
+  </body>
+</html>

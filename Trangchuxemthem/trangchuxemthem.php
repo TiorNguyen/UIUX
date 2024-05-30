@@ -82,7 +82,7 @@
           <img class="icon-users3" alt="" src="./public/iconusers-3.svg" />
 
           <div class="text-wrapper">
-            <div class="text8">Đăng xuất</div>
+            <div class="text8"><a href="../Dangnhap/dangnhap.php" style="text-decoration: none;color:black">Đăng xuất</a></div>
           </div>
           <img class="icons5" alt="" />
         </div>
@@ -108,13 +108,13 @@
           <img class="icons6" alt="" />
         </div>
         <button class="rectangle-parent">
-          <div class="frame-child"></div>
+          
           <div class="trang-ch-parent" id="groupContainer">
             <div class="trang-ch2">
-              <img class="icon-users5" alt="" />
+              
 
-              <div class="text10">Quản lí KPI</div>
-              <img class="icons7" alt="" />
+              <div class="text10"><a href="../Quanly/quanly.php" style="text-decoration: none;color:black">Quản lí KPI</a></div>
+              
             </div>
             <img class="frame-item" alt="" src="./public/group-289928@2x.png" />
           </div>
@@ -129,29 +129,29 @@
           <img class="icon2" alt="" src="./public/icon-2.svg" />
 
           <div class="text-container">
-            <div class="text12">Thống kê</div>
+            <div class="text12"><a href="../Thongke/thongke.php" style="text-decoration: none;color:black">Thống kê</a></div>
           </div>
           <img class="icons9" alt="" />
         </button>
         <div class="sidebar-items">
           <div class="thng-k1" id="thngKContainer">
-            <img class="icon3" alt="" />
+            
 
             <div class="text-frame">
-              <div class="text13">Cài đặt</div>
+              <div class="text13"><a href="../Caidat/caidat1.php" style="text-decoration: none; color:black">Cài đặt</a></div>
             </div>
-            <img class="icons10" alt="" />
+            
           </div>
           <img class="settings-icon" alt="" src="./public/settings@2x.png" />
         </div>
         <button class="ngi-dng" id="ngiDng">
           <div class="thng-k2">
-            <img class="icon4" alt="" />
+            
 
             <div class="frame-div">
-              <div class="text14">Người dùng</div>
+              <div class="text14"><a href="../Nguoidung/nguoidung.php" style="text-decoration: none;color:black">Người dùng</a></div>
             </div>
-            <img class="icons11" alt="" />
+            
           </div>
           <img class="icons12" alt="" src="./public/icons-1.svg" />
         </button>
@@ -159,7 +159,7 @@
           <div class="to-kpi" id="toKPIContainer">
             <img class="icon5" alt="" />
 
-            <div class="text15">Tạo KPI</div>
+            <div class="text15"><a href="../Taokpi/TaoKPI1/TaoKPI_1.php" style="text-decoration: none;color:black">Tạo KPI</a></div>
             <img class="icons13" alt="" />
           </div>
           <img class="icons14" alt="" src="./public/icons-2.svg" />
@@ -213,19 +213,14 @@
                           <div class="rectangle-group">
                             <div class="rectangle-div"></div>
                             <h3 class="cha-hon-thnh">Chưa hoàn thành</h3>
-                            <img
-                              class="vector-icon"
-                              loading="lazy"
-                              alt=""
-                              src="./public/vector-4.svg"
-                            />
+                            
                           </div>
-                          <img
+                          <!-- <img
                             class="sort-down-icon"
                             loading="lazy"
                             alt=""
                             src="./public/sort-down@2x.png"
-                          />
+                          /> -->
                         </div>
                         <div class="frame-child1"></div>
                       </div>

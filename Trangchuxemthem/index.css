@@ -462,6 +462,7 @@
   position: relative;
 }
 .text10 {
+  margin-left: 37px;
   font-size: var(--dropdown-menu-item-size);
   letter-spacing: -0.2px;
   line-height: 24px;
@@ -582,6 +583,7 @@
   position: relative;
 }
 .icon2 {
+  left: -3px;
   height: 24px;
   width: 24px;
   overflow: hidden;
@@ -643,6 +645,7 @@
   min-height: 24px;
 }
 .text13 {
+  margin-left: 40px;
   display: inline-block;
   min-width: 51px;
 }
@@ -710,6 +713,7 @@
   min-height: 24px;
 }
 .text14 {
+  margin-left: 37px;
   font-size: var(--dropdown-menu-item-size);
   font-family: var(--base-body-2);
   color: var(--font-deafault-b);
@@ -784,6 +788,7 @@
   display: none;
 }
 .text15 {
+  left: 40px;
   width: 92px;
   line-height: 19.2px;
   white-space: pre-wrap;
@@ -979,8 +984,8 @@
   min-width: 47px;
 }
 .edit-row-icon {
-  right: -54px;
-  top: -35px;
+  right: -55px;
+  top: -110px;
   width: 33px;
   height: 44px;
   position: relative;

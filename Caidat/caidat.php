@@ -192,6 +192,7 @@
           </button>
         </div>
         <section class="settings-container">
+          
           <div class="general-settings">
             <h1 class="ci-t-chung1">CÀI ĐẶT CHUNG</h1>
             <section class="settings-container1">
@@ -214,9 +215,11 @@
                   </div>
                 </div>
               </div>
+          
             </section>
             <div class="preferences-container">
               <div class="global-preferences">
+                <a href="caidatchung.php" style="text-decoration: none; color:black">
                 <div class="global-preferences1">
                   <div class="title-description1"></div>
                   <div class="preference-icon-container">
@@ -232,6 +235,8 @@
                   </div>
                   <div class="t-ngn-ng">Đặt ngôn ngữ, múi giờ mặc định.</div>
                 </div>
+                </a>
+                <a href="caidatthongbao.php" style="text-decoration: none; color:black">
                 <div class="notifications-wrapper">
                   <div class="notifications">
                     <div class="title-description2"></div>
@@ -251,6 +256,7 @@
                     </div>
                   </div>
                 </div>
+                </a>
               </div>
             </div>
             <div class="support-container">

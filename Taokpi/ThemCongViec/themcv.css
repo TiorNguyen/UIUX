@@ -1,0 +1,220 @@
+/* trang thêm công việc */
+
+.col-custom {
+    flex: 0 0 20.8333%; /* 2.5 / 12 * 100% */
+    max-width: 20.8333%;
+  }
+  .title-tcv{
+    padding-top: 88px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px; /* Adjust the size as needed */
+     /* Adjust the color as needed */
+    font-weight: 400;
+  }
+  .task-name-custom{
+    flex: 0 0 5.9166%; /* 2.5 / 12 * 100% */
+    max-width: 5.9166%;
+  }
+  .task-name{
+    padding: 15px;
+    font-size: 32px; /* Adjust the size as needed */
+    color: #37539C; /* Adjust the color as needed */
+    font-weight: 600; /* Semi-bold */
+  
+  }
+  .can-trai-item{
+    flex: 0 0 7.9166%; /* 2.5 / 12 * 100% */
+    max-width: 7.9166%;
+  }
+  .can-phai-item{
+    flex: 0 0 5.9166%; /* 2.5 / 12 * 100% */
+    max-width: 5.9166%;
+  }
+  .task-item{
+    background-color: #e6bbbb;
+    height: 88px;
+    
+    border-radius: 16px;
+    /* width: 1; */
+  
+  }
+  .item-title{
+    margin-left: 16px;
+    font-size: 16px; /* Adjust the size as needed */
+     /* Adjust the color as needed */
+    font-weight: 700;
+  }
+  .item-des{
+    margin-left: 36px;
+    margin-top: 5px;
+    font-size: 13px; /* Adjust the size as needed */
+     /* Adjust the color as needed */
+    font-weight: 400;
+  }
+  .item-time{
+    margin-top: 7px;
+    margin-left: 36px;
+    font-weight: 500;
+    font-size: 13px;
+  }
+  .item-date{
+    margin-top: 7px;
+    margin-left: 75px;
+    font-weight: 500;
+    font-size: 13px;
+  }
+  .item-icon{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px
+  }
+  .task{
+    margin-bottom: 30px;
+  }
+  
+  .add-task-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    
+    /* background: #e6bbbb; */
+  }
+  .add-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 400px;
+    background: #DE9090;
+    border-radius: 50px;
+    margin-top: 40px;
+    font-size: 35px;
+    border: none;
+  }
+  
+  .modal-content{
+    display: flex;
+    width: 700px;
+    height: 1000px;
+  }
+  .modal-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    font-size: 25px; 
+    margin-top: 20px;
+    
+    
+  }
+  .form-line{
+    margin-top: 30px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .modal-body{
+    margin-top: 30px;
+  }
+  .field-name-box{
+    height: 50px;
+    width: 50px;
+  }
+  .field-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    height: 30px;
+    width: 115px;
+    background-color: #F98989;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 16px;
+  }
+  .field-content-box{
+    height: 80px;
+    width: 400px;
+  }
+  .field-content{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    height: 40px;
+    width: 700px;
+    background-color: #f1f1f1;
+    border: solid 1px;
+    border-radius:10px;
+    color: #040404;
+    font-size: 16px;
+  }
+  .content1{
+    margin-left: 25px;
+  }
+  .field-time-box{
+    height: 50px;
+    width: 50px;
+  }
+  .field-time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    height: 30px;
+    width: 125px;
+    background-color: #E6DFDF;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 16px;
+  }
+  .calendar1{
+    display: flex;
+    max-width: 200px;
+  }
+  .time-div{
+    position: relative;
+    /* top: 200px; */
+  }
+  .div-2{
+    position: absolute;
+    top: 0px;
+  }
+  .modal-footer{
+    border-top: none;
+  }
+  .huy-btn{
+    /* border: solid red;
+    color: red; */
+    height: 40px;
+  }
+  .xac-nhan-btn{
+    height: 40px;
+  }
+  .btn-line{
+    margin-top: 200px;
+  }
+  .add-group{
+    margin-bottom: 250px;
+  }
+  
+  .col-btn-custom{
+    
+      flex: 0 0 15.8333%; /* 2.5 / 12 * 100% */
+      max-width: 10.8333%;
+      height: 50px;
+      
+  }
+
+
+
+
+
