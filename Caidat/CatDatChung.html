@@ -200,14 +200,13 @@
                     <b class="ngn-ng">Ngôn ngữ : </b>
                     <div class="input-wrapper">
                       <div class="input">
-                        <div class="ting-vit">Tiếng Việt</div>
-                        <div class="icon-frame">
-                          <img
-                            class="icon24"
-                            alt=""
-                            src="./public/icon-61.svg"
-                          />
-                        </div>
+                        
+                        <select class="language-dropdown">
+                          <option value="en">English</option>
+                          <option value="vi">Tiếng Việt</option>
+                          <option value="fr">Français</option>
+                          <!-- Add more options as needed -->
+                      </select>
                       </div>
                     </div>
                   </div>
@@ -231,25 +230,19 @@
                         <div class="date-parent">
                           <div class="date">
                             <div class="input1">
-                              <div class="text45">
-                                <div class="mmddyyyy">MM/DD/YYYY</div>
-                              </div>
-                              <img
-                                class="icon25"
-                                alt=""
-                                src="./public/icon-71.svg"
-                              />
+                              <input
+                                type="date"
+                                class="date-picker"
+                            />
                             </div>
                           </div>
                           <div class="input2">
-                            <div class="h-ampm">12h (am/pm)</div>
-                            <div class="svg-container">
-                              <img
-                                class="svg-icon1"
-                                alt=""
-                                src="./public/svg-1.svg"
-                              />
-                            </div>
+                            <select class="language-dropdown">
+                              <option value="en">12H (am/pm)</option>
+                              <option value="vi">24H</option>
+                              
+                              <!-- Add more options as needed -->
+                          </select>
                           </div>
                         </div>
                       </div>
@@ -260,14 +253,12 @@
                       <b class="quc-gia">Quốc gia : </b>
                       <div class="input-container">
                         <div class="input3">
-                          <b class="vit-nam">Việt Nam</b>
-                          <div class="icon-wrapper1">
-                            <img
-                              class="icon26"
-                              alt=""
-                              src="./public/icon-61.svg"
-                            />
-                          </div>
+                          <select class="language-dropdown">
+                            <option value="en">English</option>
+                            <option value="vi">Tiếng Việt</option>
+                            <option value="fr">Français</option>
+                            <!-- Add more options as needed -->
+                        </select>
                         </div>
                       </div>
                     </div>
@@ -277,15 +268,12 @@
                       <b class="mi-gi">Múi giờ : </b>
                       <div class="input-frame">
                         <div class="input4">
-                          <b class="vit-nam-utc0700">Việt Nam UTC+07:00</b>
-                          <div class="text46"></div>
-                          <div class="icon-wrapper2">
-                            <img
-                              class="icon27"
-                              alt=""
-                              src="./public/icon-9.svg"
-                            />
-                          </div>
+                          <select class="language-dropdown">
+                            <option value="utc-7">VIỆT NAM UTC +7:00</option>
+                            <option value="utc">UTC</option>
+                            <option value="utc+1">UTC +1:00</option>
+                            <!-- Add more options as needed -->
+                          </select>
                         </div>
                       </div>
                     </div>

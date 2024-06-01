@@ -471,14 +471,14 @@
   align-items: center;
 }
 .general {
-  width: 1300px;
+  width: 100%;
   box-shadow: 0 3.8px 3.76px rgba(0, 0, 0, 0.25);
   background-color: var(--color-gray-600);
   overflow: hidden;
   flex-shrink: 0;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 42.8px 44px 65px 136px;
+  padding: 42.8px 44px 65px 290px;
   box-sizing: border-box;
   gap: 28.2px;
   text-align: left;
@@ -809,9 +809,8 @@
   color: var(--font-deafault-b);
 }
 .sidebar {
-  border-radius: 0 var(--br-11xl) var(--br-11xl) 0;
+  border-radius: 0 0 0 0;
   background-color: var(--font-default-w);
-  border-right: 2px solid #c5c2c2;
   flex-direction: row;
   justify-content: flex-start;
   padding: 0 0 312px;

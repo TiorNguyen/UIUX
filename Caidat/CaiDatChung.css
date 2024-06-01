@@ -316,7 +316,7 @@
 }
 .sidebar2 {
   margin-top: -1px;
-  border-radius: 0 var(--br-11xl) var(--br-11xl) 0;
+  border-radius: 0;
   background-color: var(--font-default-w);
   flex-direction: row;
   justify-content: flex-start;
@@ -880,10 +880,10 @@
   flex: 1;
   border-radius: 10.88px;
   background-color: var(--font-default-w);
-  border: 1.4px solid var(--color-darkgray-100);
+  
   align-items: flex-end;
   justify-content: space-between;
-  padding: var(--padding-mini) var(--padding-4xl);
+  padding: 0;
   gap: var(--gap-xl);
 }
 .input-wrapper,
@@ -966,12 +966,12 @@
   align-self: stretch;
   border-radius: 10.88px;
   background-color: var(--font-default-w);
-  border: 1.4px solid var(--color-darkgray-100);
+  
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: var(--padding-base) var(--padding-4xl);
+  padding: 0;
   gap: var(--gap-xl);
 }
 .date {
@@ -1007,13 +1007,14 @@
   flex: 0.8308;
   border-radius: 10.88px;
   background-color: var(--font-default-w);
-  border: 1.4px solid var(--color-darkgray-100);
+  
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  padding: var(--padding-base) var(--padding-4xl);
+  padding: 0;
   min-width: 187px;
   gap: var(--gap-xl);
+  margin: 5px 0;
 }
 .date-parent,
 .frame-wrapper1,
@@ -1088,11 +1089,11 @@
   flex: 1;
   border-radius: 10.88px;
   background-color: var(--font-default-w);
-  border: 1.4px solid var(--color-darkgray-100);
+ 
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  padding: var(--padding-mini) var(--padding-4xl);
+
   max-width: 100%;
   gap: var(--gap-xl);
 }
@@ -1167,9 +1168,9 @@
   flex: 1;
   border-radius: 10.88px;
   background-color: var(--font-default-w);
-  border: 1.4px solid var(--color-darkgray-100);
+  
   justify-content: space-between;
-  padding: var(--padding-base) var(--padding-4xl) var(--padding-mini) 27px;
+
   gap: var(--gap-xl);
 }
 .input-frame {
@@ -1351,7 +1352,7 @@
   flex: 1;
   box-shadow: 3px 3.8px 3.76px 3px rgba(0, 0, 0, 0.25);
   background-color: var(--color-gray-600);
-  gap: 59px;
+  gap: 90px;
   max-width: 100%;
   text-align: left;
   font-size: var(--font-size-xl);
@@ -1467,4 +1468,26 @@
     height: auto;
     min-height: 822;
   }
+}
+
+.language-dropdown {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  font-size: 16px;  
+  background-color: #ffffff;
+  font-family: "League Spartan"; 
+}
+
+.date-picker {
+  width: 85%;
+  padding: 15px;
+  padding-left: 25px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 16px;
+  background-color: #ffffff;
+  font-family: "League Spartan";
 }
